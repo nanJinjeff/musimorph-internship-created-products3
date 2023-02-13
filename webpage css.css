@@ -1,0 +1,105 @@
+html, body{
+	 margin:auto;
+	 }
+     .column{
+	   display:inline-block;
+	 }
+	 .headlabelcolor{
+	    color:white;
+	 }
+	 #label{
+	   text-align:left;
+	   padding:15px
+	 }
+	 .music_menu_table{
+	 border:1px solid black;
+	 }
+	 .td{
+	 border:1px solid black;
+	 
+	 }
+	 .page_background_color{
+	 position:absolute;
+	 left:0px;
+	 top:0px;
+	 z-index:-1;
+	 
+	 }
+	 .headlabel{
+		 position:absolute;
+		 left:0px;
+		 top:0px;
+		 z-index:1;
+	 }
+	 label{
+	  color:white;
+	 }
+	 .buttonlabel:hover{
+         color:red;
+	 }
+	 .text_align_left{
+		text-align:left;
+	 }
+	 .headlabelhover:hover{
+	    color:gray;
+	 }
+	 #buttonhover:hover{
+	    background-color:8FBC8F;
+	 }
+	 .labelbuttonhover:hover{
+	    color:blue;
+	 }
+	 .tdlabelbuttonhover:hover{
+	   filter:drop-shadow(1px 1px 2px blue);
+	 }
+	 .artistlabel:hover{
+	   color:black;
+	 }
+	 .forum{               /**/
+  position: relative;
+  margin: auto 90px;
+}
+.code .forum-1{            /*开启绝对定位*/
+  position: absolute;
+  overflow: hidden;
+  height: 0;
+  transition-duration: 0.5s;
+}
+.forum:hover .forum-1{    /*鼠标移入释放高度*/
+  height: 150px;
+}
+.code{
+  width: 200px;
+}
+.code dt{                     /*弹出菜单*/
+  float: left;
+  width: 300px;
+  height:30px;
+  background-color:black;
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+}
+dt:hover{
+  color:white;
+}
+a:hover{
+	color: red;
+}
+#fixed-bottom {
+	position:fixed;
+	bottom:0px;
+}
+.hfbackground {
+	background-color:black;
+}
+.text {
+	color:white;
+	}
+#footer{
+	    width:1750px;
+		text-align:center;
+}
+
+
+
